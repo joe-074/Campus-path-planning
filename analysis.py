@@ -15,9 +15,8 @@ ALLOW_DIAGONAL = True
 RANDOM_SEED = 42
 
 
-# =========================================================
+
 # GRID GENERATION
-# =========================================================
 def generate_grid(size: int, obstacle_prob: float) -> np.ndarray:
     """
     Generate a random square grid.
